@@ -1,0 +1,264 @@
+::selection {
+    background-color: #909090;
+}
+
+.galeri_img{
+    width: 300px;
+    height: 180px;
+    border: 10px solid white;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.galeri_contents {
+    text-align: center;
+
+}
+
+.container ul {
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.duyuru_container ul {
+    padding-left: 40px; 
+}
+
+#dersnotlari_a a {
+    color: yellow;
+}
+
+#notts{
+    -webkit-transition: all 5s;
+    transition: all 5s;
+}
+#notts:hover{
+    color: rgb(255, 255, 0);
+}
+
+#notlar-container {
+    padding: 30px;
+    text-align: center;
+    width: 400px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 5s;
+    transition: all 5s;
+}
+
+#notlar-container:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.discord-container {
+    margin-top: 20px; 
+}
+
+#index_maincontent {
+    width: 600px;
+}
+
+#main-content h1 {
+    margin-bottom: 20px; 
+}
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#main-content {
+    flex: 1;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.discord-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.discord-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.discord-button:hover {
+    background-color: #1f77c3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table th, table td ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    #index_maincontent {
+        width: 400px;
+    }
+    p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .discord-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .discord-button {
+        padding: 8px 16px;
+    }
+    #index_maincontent {
+        width: 200px;
+    }
+    p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+.duyuru_container {
+    max-height: 400px; 
+    overflow-y: auto;  
+}
+
+
+#countdown {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.duyuru_container {
+    background-color: #f2f2f2; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+}
+
+.duyuru_container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.duyuru_container p {
+    font-size: 16px;
+    color: #333; 
+}
+
+
+.duyuru_container + .duyuru_container {
+    margin-top: 20px;
+}
