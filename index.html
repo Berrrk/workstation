@@ -2,65 +2,55 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workstation - Anasayfa</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:opsz,wght@6..12,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Workstation - Homepage</title>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav id="main-navigationbar">
-        <a href="" class="logo">Workstation</a>
-        <ul id="navigationbar-ul">
-            <li><a href="">Anasayfa</a></li>
-            <li><a href="">Ödevler</a></li>
-            <li><a href="">Duyurular</a></li>
-            <li><a href="">Birleşmiş Sınıf Meclisi</a></li>
-            <li><a href="">Galeri</a></li>
-            <li><a href="">Ders Notları</a></li>
-            <li><a href="">İletişim</a></li>
-            <li><a href="">Github</a></li>
-        </ul>
-    </nav>
-    <section id="main-section">
-        <div id="main-section-header">
-            <div class="main-sections sectiontype_1">
-                <h3>Workstation'a Hoşgeldin</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore officia consequuntur. Voluptates eos quam recusandae sunt nihil doloribus iure fuga earum optio, ullam et nobis quaerat harum quidem eveniet.</p>
-            </div>
-            <div class="main-sections sectiontype_1">
-                <h3>Bazı Yeniliklerimiz Var</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eius beatae, provident illo qui alias earum aliquid repudiandae expedita vitae! Velit vel voluptas voluptatibus beatae at aliquam recusandae doloremque dolorum?</p>
-            </div>
-            <div class="main-sections sectiontype_1">
-                <h3>Sınıflar Arası Ortaklık</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit velit, et amet perspiciatis soluta vitae corporis modi eum maxime ut minima facilis excepturi unde obcaecati quos iusto sit eligendi eius!</p>
-            </div>
-            <div class="main-sections sectiontype_1 imagesection">
-                <h2>Discord Sunucumuza Katıl</h2>
-                <p>Discord sunucumuza katılman, kesinlikle gereken bir olay. Çünkü sunucumuz; konuları tartışabileceğin, etkileşimde bulunabileceğin etkinliklerin, gerekli dosya ve bilgilere erişebileceğin bir sunucu. Bu yüzden katılman çok daha mantıklı.</p>
-                <div id="discord-section">
-                    <svg id="discord-vector" xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15" fill="none">
-                        <path d="M16.942 1.2567C15.6304 0.662069 14.2429 0.239448 12.816 0C12.638 0.311026 12.431 0.730573 12.287 1.06292C10.7714 0.839095 9.22958 0.839095 7.71399 1.06292C7.55506 0.699747 7.37648 0.344949 7.17899 0C5.7509 0.239843 4.36228 0.663459 3.04997 1.25961C0.43895 5.08301 -0.269054 8.81145 0.0849482 12.4866C1.60911 13.6017 3.32157 14.4518 5.14598 14.999C5.55589 14.4525 5.91846 13.874 6.22998 13.2695C5.63746 13.0507 5.0662 12.7812 4.52297 12.4643C4.66597 12.3616 4.80598 12.2541 4.94098 12.1436C8.232 13.6348 11.807 13.6348 15.059 12.1436C15.196 12.2541 15.336 12.3616 15.477 12.4643C14.936 12.7802 14.363 13.0515 13.767 13.2705C14.078 13.8752 14.4406 14.4537 14.851 15C16.6769 14.4531 18.3905 13.6022 19.9151 12.4856C20.3301 8.22621 19.2061 4.53168 16.942 1.2567ZM6.67799 10.2261C5.68998 10.2261 4.87998 9.33273 4.87998 8.24462C4.87998 7.15651 5.67298 6.26122 6.67799 6.26122C7.68299 6.26122 8.493 7.15458 8.476 8.24462C8.477 9.33273 7.68299 10.2261 6.67799 10.2261ZM13.322 10.2261C12.334 10.2261 11.524 9.33273 11.524 8.24462C11.524 7.15651 12.317 6.26122 13.322 6.26122C14.327 6.26122 15.137 7.15458 15.12 8.24462C15.12 9.33273 14.327 10.2261 13.322 10.2261Z" fill="white"/>
-                    </svg>
-                    <p id="discord-text">Discord</p>
-                    <div id="discordcontainer">
-                        <img id="discord-logo" src="img.jpg" width="40px" height="40px" alt="Discord Logo">
-                        <p id="text0">Şuraya katılmak için davet edildin</p>
-                        <p id="text1">11/A Sınıf Sunucusu</p>
-                        <a id="button" href="">Daveti Kabul Et</a>
-                    </div>
-                </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Workstation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Duyurular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ödevler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Workstation<span>Games</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="container">
+        <div class="my-2">
+            <h2 class="text-center">Workstation'a Hoşgeldin!</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui quaerat aspernatur maxime dicta ad voluptatem, eos vero ea perspiciatis praesentium suscipit culpa dolor iusto facilis natus dolores id excepturi vitae?</p>
+        </div>
+        <hr>
+    </header>
+    
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
